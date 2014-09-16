@@ -1,0 +1,60 @@
+<!doctype html>
+
+
+<html lang="es" class="no-js">
+<head>
+	<title>Radio Lobos FM (LIVE)</title>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" contenido="IE=edge,chrome=1">
+	<meta name="viewport" contenido="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen">
+		<script src="http://cdn.octoshape.net/resources/player/jwflvplayer/5/jwplayer.js" type="text/javascript"></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+</head>
+<body>
+
+	<!-- contenedor -->
+	<div id="contenedor">
+		<!-- Header
+		    ================================================== -->
+		<header>
+			<div class="logotipo_caja">
+				<a class="logo lobos_fm" href="#"><img alt="" src="img/logo1.png"></a>
+			</div>
+			
+
+		<div id="player"></div>
+<script type="text/javascript">
+	jwplayer("player").setup({
+		flashplayer: "http://cdn.octoshape.net/resources/player/jwflvplayer/5/jwplayer-5.7.swf",
+		file: "octoshape://streams.octoshape.net/streamingproyect/lobotv/live/flv/ch2/128k",
+		provider: "http://cdn.octoshape.net/resources/player/jwflvplayer/5/jwplayer-octoshape-mediaprovider2.swf",
+		width: 301,
+		height: 52,
+		autostart: true
+	});
+</script>
+
+		    
+	</div>
+	            
+
+	<div class="preloader">
+		<img alt="" src="img/preloader1.gif">
+	</div>
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
