@@ -1,0 +1,79 @@
+<!doctype html>
+
+
+<html lang="es" class="no-js">
+<head>
+	<title>Radio Lobos FM (LIVE)</title>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" contenido="IE=edge,chrome=1">
+	<meta name="viewport" contenido="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+</head>
+<body>
+
+	<!-- contenedor -->
+	<div id="contenedor">
+		<!-- Header
+		    ================================================== -->
+		<header>
+			<div class="logotipo_caja">
+				<a class="logo lobos_fm" href="#"><img alt="" src="img/lagunafm.png"></a>
+			</div>
+			
+<div id="player">
+
+<a href="http://www.adobe.com/go/getflashplayer"><img src="https://d2iwzbhgddzdwl.cloudfront.net/files/images/flashreq.png" alt="Get Adobe Flash player" /></a>
+
+</div>
+
+<script type="text/javascript" src="https://d2iwzbhgddzdwl.cloudfront.net/resources/player/infinitehd3/swfobject.js"></script>
+
+<script type="text/javascript">
+
+var player_id = "player";
+
+var player_width = 312;
+
+var player_height = 288;
+
+var player_streams = [{
+
+id: 'my_stream', 
+stream: 'octoshape://streams.octoshape.net/lobotv/live/flv/ch3/128k'
+
+}
+
+];
+
+var player_stream = "my_stream";
+
+var params = {allowFullScreen: true, scale: 'noscale', allowScriptAccess: 'always'};
+
+var attributes = {id: player_id, name: player_id};
+
+swfobject.embedSWF(document.location.protocol+'//d2iwzbhgddzdwl.cloudfront.net/resources/player/infinitehd3/player.swf', player_id, player_width, player_height, "10.2.0", null,null, params, attributes);
+
+</script>
+
+		    
+	</div>
+	            
+
+	<div class="preloader">
+		<img alt="" src="img/preloader1.gif">
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>

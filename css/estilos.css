@@ -1,0 +1,253 @@
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* GRUPO ARVUM IS ON THE FLOOR! AWWWW */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+body{
+	overflow-x: hidden;
+}
+a, a:hover, a:focus{
+	text-decoration: none;
+}
+a:focus { 
+    	outline: none; 
+}
+p{
+	color: #777;
+	font-family:"OpenSansRegular";
+	font-size: 14px;
+	line-height:21px;
+}
+@media (min-width: 1024px) and (max-width: 5000px) {
+	/*.contenedor, .service-details{
+		max-width: 990px;
+	}*/
+	.contenedor, .service-details{
+		width: 100%;
+	}
+}
+
+
+
+.add-top{
+	padding-top: 40px;
+}
+.add-bottom{
+	padding-bottom: 40px;
+}
+.add-top-half{
+	padding-top: 20px;
+}
+.add-bottom-half{
+	padding-bottom: 20px;
+}
+.pad-common{
+	padding: 50px;
+}
+
+.alinear-logo{
+	position:relative;
+	top:30%;
+	transform:translateY(-50%);
+}
+
+
+.nav-trigger.displace{
+	left: 200px;
+}
+#mastwrap{
+	margin-left: 0px;
+}
+#logo_vertical{
+	margin: 10px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #333;
+	font-family:"MontserratRegular";
+	font-weight: normal;
+	margin-top: 95px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    writing-mode: lr-tb;
+}
+#logotipo{
+	border-bottom:solid 1px #eee;
+}
+#logotipo > img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.main-heading{
+	font-weight: normal;
+	font-size:64px;
+	line-height:71px;
+font-family:"NexaLight";
+text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 0;
+}
+.sub-heading{
+	font-size: 36px;
+	line-height:43px;
+font-family:"MontserratRegular";
+	font-weight: 100;
+	color: #aaa;
+}
+.sub-heading > span{
+font-family:"TexGyreHerosBold";
+}
+
+.query-heading{
+	font-size: 36px;
+	line-height:43px;
+font-family:"MontserratRegular";
+	font-weight: 100;
+	color: #aaa;
+}
+.query-heading > span{
+font-family:"TexGyreHerosBold";
+}
+.inner-heading{
+	font-family:"MontserratRegular";
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.liner-medium{
+	width: 36px;
+	height: 7px;
+	display: inline-block;
+}
+
+.liner-small{
+	width: 30px;
+	height: 5px;
+	display: block;
+	margin-top: 5px;
+}
+.parallax{
+	background-size: cover !important;
+	background-repeat: no-repeat;
+}
+
+
+
+/*Inicio*/
+.thumb-carousel-wrap{
+	background:#000;
+}
+.home-carousel  .item{
+	background:#fff;
+}
+.thumb-zoom{
+}
+.inicio-slide{
+	-webkit-transition: all .8s linear;
+	   -moz-transition: all .8s linear;
+		-ms-transition: all .8s linear;
+		 -o-transition: all .8s linear;
+			transition: all .8s linear;
+}
+
+
+
+
+
+
+#mastfoot{
+}
+.foot-top{
+	padding: 20px;
+	border-top: solid 1px #eee;
+}
+.foot-social{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.foot-social li{
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.foot-social li a > img{
+	opacity: 0.3;
+	-webkit-transition: all .8s linear;
+	   -moz-transition: all .8s linear;
+		-ms-transition: all .8s linear;
+		 -o-transition: all .8s linear;
+			transition: all .8s linear;
+}
+.foot-social li a > img:hover{
+	opacity: 1;
+	-webkit-transition: all .8s linear;
+	   -moz-transition: all .8s linear;
+		-ms-transition: all .8s linear;
+		 -o-transition: all .8s linear;
+			transition: all .8s linear;
+}
+.handle{
+	font-size: 24px;
+	line-height: 31px;
+	color: #000;
+	font-family:"TexGyreHerosBold";
+	-webkit-transition: all .8s linear;
+	   -moz-transition: all .8s linear;
+		-ms-transition: all .8s linear;
+		 -o-transition: all .8s linear;
+			transition: all .8s linear;
+}
+
+.handle:hover{
+	-webkit-transition: all .8s linear;
+	   -moz-transition: all .8s linear;
+		-ms-transition: all .8s linear;
+		 -o-transition: all .8s linear;
+			transition: all .8s linear;
+}
+.credit-panel{
+	padding: 20px;
+}
+.credit-panel p{
+	color: #444;
+	margin-bottom: 0;
+	font-size: 12px;
+	line-height: 19px;
+font-family:"OpenSansLight";
+}
+.titulo-division{
+	font-family:"OpenSans"
+	position:absolute;
+}
+.dgo,.mzt,.lag{
+	
+	width: 350px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 90px 10px 10px 40px;
+}
+.imagen-zoom{
+width:300px; 
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+}
+.imagen-zoom:hover{
+
+	-webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+
+
+
