@@ -358,15 +358,10 @@ body.active {
 
 #contenedor {
     height: 100%;
-    opacity: 0;
-    transition: all 0.17s ease-in-out;
-    -moz-transition: all 0.17s ease-in-out;
-    -webkit-transition: all 0.17s ease-in-out;
-    -o-transition: all 0.17s ease-in-out;
+   
 }
 
 #contenedor.active {
-    opacity: 1;
 }
 
 ul {
@@ -516,7 +511,7 @@ text-align: center;
 }
 
 .contenido_cuadro {
-    width: 24.99%;
+    width: 30.99%;
     margin: 0;
     overflow: hidden;
 }
@@ -1239,15 +1234,17 @@ ul.depth li:before {
 
 .equipo_personas {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom:15px;
+    width: 100%;
     overflow: hidden;
+    
 }
 
 .equipo_personas img {
-    height: 220px;
     width: 100%;
-    -webkit-backface-visibility: hidden;
+    height: 100%;
 }
+
 
 .equipo_hover {
     position: absolute;

@@ -200,3 +200,8 @@
 	margin: 2px 2px 2px 200px;
 }
 }
+@media (max-width: 400px){
+	.lobo_team_logo img{
+    width: 310px;
+}
+}

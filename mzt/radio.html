@@ -40,25 +40,14 @@
 <script type="text/javascript" src="https://d2iwzbhgddzdwl.cloudfront.net/resources/player/infinitehd3/swfobject.js"></script>
 
 <script type="text/javascript">
-
-var player_id = "player";
-var player_width = 290;
-var player_height = 290;
-var player_streams = [
-live/flv/ch4/128k,
-{
-id: 'nbaradio',
-stream: 'octoshape://streams.octoshape.net/lobotv/live/flv/ch4/128k'
-radio: true
-}
-];
-var player_stream = "nbaradio";
-var player_backgroundImage = 'http://www.loboscadena7.mx/noticias/wp-content/uploads/2014/09/cuadro10671-300x257.png';
-var params = {allowFullScreen: true, scale: 'noscale', allowScriptAccess: 'always'};
-var attributes = {id: player_id, name: player_id};
-swfobject.embedSWF(document.location.protocol+'//d2iwzbhgddzdwl.cloudfront.net/
-resources/player/infinitehd3/player.swf', player_id, player_width, player_height, "10.2.0", null,null, params, attributes);
-
+	jwplayer("player").setup({
+		flashplayer: "http://cdn.octoshape.net/resources/player/jwflvplayer/5/jwplayer-5.7.swf",
+		file: "octoshape://streams.octoshape.net/lobotv/live/flv/ch4/128k",
+		provider: "http://cdn.octoshape.net/resources/player/jwflvplayer/5/jwplayer-octoshape-mediaprovider2.swf",
+		width: 312,
+		height: 288,
+		autostart: true
+	});
 </script>
 
 		    
